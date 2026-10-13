@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: nginx
-        image: srikanth865/blue-green:0.1.0
+        image: srikanth865/blue-green:0.3.0 #after 3rd time version chnaged from 0.1.0 to 0.3.0 version
         imagePullPolicy: Always
         ports:
         - containerPort: 80

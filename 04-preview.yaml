@@ -11,8 +11,11 @@ spec:
   # Service uses the below labels to select the pods
   selector:
     app: nginx
-    version: green
+    version: blue  #previously green
   ports:
     - protocol: TCP
       port: 80 # service port
       targetPort: 80 # container port
+
+
+      #curl http://nginx
